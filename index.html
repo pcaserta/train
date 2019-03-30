@@ -23,9 +23,9 @@
     <div class="container">
 
         <!-- Jumbotron -->
-        <div class="jumbotron" style="background-color:lightskyblue; color:black">  <img src="assets/images/Cole Train!.jpg" alt="">
-          <h1 class="text-center">Hop on the Train!!</h1>
-          <h3 class="text-center">Chugga-chugga chugga-chugga CHOO CHOO</h3>
+        <div class="jumbotron" style="background-color:black; color:limegreen">  <img src="assets/images/1814286-neo.jpg" alt="">
+          <h1 class="text-center">Matrix Calculated Train Schedule</h1>
+          <h3 class="text-center">There is no spoon</h3>
         </div>
     
         <div class="row">
@@ -33,12 +33,13 @@
           <div class="col-md-12">
     
             <!-- Current Employees-->
-            <div class="card mb-4" style = "border-color: lightskyblue">
-              <div class="card-header" style="background-color:lightskyblue; ">Current Train Schedule</div>
-              <div class="card-body">
+            <div class="card mb-4" style = "border-color: black; color:limegreen">
+              <div class="card-header" style="background-color:black; color:limegreen; border-color: limegreen; ">Current Train Schedule</div>
+              <div class="card-body" style="background-color:black">
                 <table class="table table-sm table-hover" id='customer-table'>
                   <thead>
                     <tr>
+                      
                       <th scope="col">Train Name</th>
                       <th scope="col">Destination</th>
                       <th scope="col">Frequency (min)</th>
@@ -57,30 +58,30 @@
         <div class="row" >
           <div class="col-md-12">
             <!-- Add Employee  -->
-            <div class="card mb-4"style = "border-color:lightskyblue" >
-              <div class="card-header" style= "background-color: lightskyblue;">Add Train</div>
-              <div class="card-body">
+            <div class="card mb-4"style = "border-color:black; color:limegreen" >
+              <div class="card-header" style= "background-color: black; color:limegreen; border-color:limegreen">Add Train Schedule</div>
+              <div class="card-body" style = "background-color:black">
     
                 <!-- Entry Form -->
                 <form>
                     
                   <div class="form-group">
-                    <label for="employee-name-input">Train Name</label>
-                    <input class="form-control" id="train-name-input"  placeholder="Coal Train" type="text">
+                    <label for="employee-name-input" >Train Name</label>
+                    <input class="form-control"style = "background-color: black; color:limegreen" id="train-name-input"  placeholder="Coal Train" type="text">
                   </div>
                   <div class="form-group">
                     <label for="role-input">Destination</label>
-                    <input class="form-control" id="destination-input"  placeholder="Amsterdam" type="text">
+                    <input class="form-control"style = "background-color: black; color:limegreen" id="destination-input"  placeholder="Amsterdam" type="text">
                   </div>
                   <div class="form-group">
                     <label for="start-input">First Train Time (HH:mm-military time)</label>
-                    <input class="form-control" id="First-train-input"  placeholder="21:30" type="text">
+                    <input class="form-control"style = "background-color: black; color:limegreen" id="First-train-input"  placeholder="21:30" type="text">
                   </div>
                   <div class="form-group">
                     <label for="rate-input">Frequency (min)</label>
-                    <input class="form-control" id="frequency-input"  placeholder="200" type="text">
+                    <input class="form-control"style = "background-color: black; color:limegreen" id="frequency-input"  placeholder="200" type="text">
                   </div>
-                  <button class="btn btn-primary float-left" id="add-train-btn">Submit</button>
+                  <button class="btn float-left" id="add-train-btn">Submit</button>
                 </form>
     
               </div>

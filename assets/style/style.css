@@ -3,3 +3,24 @@ img {
     margin: 0 auto;
     margin-bottom: 40px
 }
+
+button {
+    color:limegreen;
+    background-color:black;
+    border-color: limegreen;
+    border-radius: 8px;
+    width: 35px
+    
+    
+}
+
+#add-train-btn{
+    color:limegreen;
+    background-color:black;
+    border-color: limegreen;
+    width: 75px
+
+}
+body{
+    background-image: url( https://img.freepik.com/free-vector/matrix-background_77760-167.jpg?size=626&ext=jpg)
+}
